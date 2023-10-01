@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.angel {
+  background-color: #095496;
+  background-image: -webkit-linear-gradient(70deg, #0f68b6 50%, #f8f8f8 50%);
+  min-height: 500px;
+}
+
+.angel-text h1 {
+  font-size: 3rem;
+  font-family: rosmatika;
+  margin: 0.2em auto;
+  color: wheat;
+  line-height: 1rem;
+}
+
+.angel span {
+  text-transform: capitalize;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: droidLogo;
+}
+
+@media screen and (max-width: 900px) {
+  html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .angel {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-70deg, rgba(84, 104, 255, 0.3764705882) 50%, #f8f8f8 50%);
+    min-height: 500px;
+  }
+  .angel-text h1 {
+    font-size: 3rem;
+    font-family: rosmatika;
+    margin: 0.2em auto;
+    color: wheat;
+    line-height: 1rem;
+  }
+  .angel span {
+    text-transform: capitalize;
+  }
+  .navbar-brand {
+    text-transform: capitalize;
+    font-family: droidLogo;
+  }
+}
+#logo {
+  font-weight: 900;
+  font-size: 1.5rem !important;
+}
+
+.navbar ul li a {
+  font-family: nunito;
+  font-size: 0.9rem;
+  padding: 5px 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.navbar ul li a .resgister {
+  font-family: nunito;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+#female {
+  width: 600px;
+  /* Set the desired width */
+  height: 590px;
+  /* Set the desired height */
+}
+
+span {
+  font-family: Rosmatika;
+}
+
+p {
+  font-family: nunito;
+  text-align: justify;
+}
+
+h1 {
+  font-family: Rosmatika;
+  text-align: justify;
+}
+
+footer#footer-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg-3.jpg?b0029a241dfd4ad1875b4adf6a4ba040) no-repeat center center;
+  background-size: cover;
+}
+
+div#badge {
+  background: url(/images/dream2.jpg?e3f137c535de454f8b8ed3b05facd837) no-repeat top center;
+  background-size: cover;
+}
