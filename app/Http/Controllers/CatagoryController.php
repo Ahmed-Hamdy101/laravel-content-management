@@ -18,10 +18,6 @@ class CatagoryController extends Controller
     {    
         $catagory = Catagory::all();
          return view('/pages/catagory/index',compact('catagory'));
-
-        $c = Category::all();
-        return view('/pages/catagory/index',compact('c'));
- 
     }
 
     /**
@@ -44,10 +40,10 @@ class CatagoryController extends Controller
     {
         $catagory= $request->catagory;
 
-        $catagories = Category::create([
+        Catagory::create([
             'name' => $catagory,
         ]);
-        return redirect('/catagory/')->back();
+        return redirect('/catagory/');
     }
 
     /**
