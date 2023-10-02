@@ -58,6 +58,44 @@ body {
     text-transform: capitalize;
     font-family: droidLogo;
   }
+  #logo {
+    font-weight: 900;
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 426px) {
+  html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .angel {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-70deg, rgba(84, 104, 255, 0.3764705882) 50%, #f8f8f8 50%);
+    min-height: 500px;
+  }
+  .angel-text h1 {
+    font-size: 3rem;
+    font-family: rosmatika;
+    margin: 0.2em auto;
+    color: wheat;
+    line-height: 1rem;
+  }
+  .angel span {
+    text-transform: capitalize;
+  }
+  .navbar-brand {
+    text-transform: capitalize;
+    font-family: droidLogo;
+  }
+  #logo {
+    font-weight: 900;
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
 }
 #logo {
   font-weight: 900;
