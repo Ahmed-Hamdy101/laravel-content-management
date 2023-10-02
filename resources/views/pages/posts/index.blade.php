@@ -8,10 +8,6 @@
                 <a href="/posts/create/" class="btn btn-block btn-info"> <i class="bi bi-journal-plus"></i> Create Post</a>
             </div>
         </div>
-        
-<<<<<<< HEAD
-
-=======
         <div class="row">
         @foreach ($posts as $post)
             <div class="col-sm-4 col-md-6  col-md-4 col-lg-3">
@@ -32,6 +28,5 @@
             </div>
             @endforeach
         </div>
->>>>>>> 208a6e2dfd4df29f6a43fddbccfed41473dfd301
     </div>
         @overwrite

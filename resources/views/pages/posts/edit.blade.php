@@ -26,22 +26,11 @@
             <div class="form-group">
               <label class="form-label text-primary" for="content">content</label>
                 <select name="category_id" id="content" class="form-control">
-<<<<<<< HEAD
                     @foreach ($catagory as $c)
                         @if ($c->id == $post->category_id)
                             <option value="{{ $c->id }}" selected> {{ $c->name }}</option>
                         @else
-                            <option value="{{ $c->id }}"> {{ $c->name }}</option>
-=======
-                    @foreach ($categories as $category)
-                        @if ($category->id == $post->category_id)
-                            <option value="{{ $category->id }}" selected> {{ $category->name }}</option>
-                        @else
-                            <option value="{{ $category->id }}"> {{ $category->name }}</option>
->>>>>>> 208a6e2dfd4df29f6a43fddbccfed41473dfd301
-                        @endif
-                        @endforeach
-                        
+                            <option value="{{ $c->id }}"> {{ $c->name }}</option>                    
                       </select>
                     </div>
                     <br>
