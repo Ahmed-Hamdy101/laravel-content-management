@@ -18,6 +18,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+__webpack_require__(/*! ./delivery */ "./resources/js/delivery.js");
+
+
+
+/***/ }),
+
+/***/ "./resources/js/delivery.js":
+/*!**********************************!*\
+  !*** ./resources/js/delivery.js ***!
+  \**********************************/
+/***/ (() => {
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('female'),
+  path: '/img/female.json',
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  name: "Demo Animation"
+});
 
 /***/ }),
 
