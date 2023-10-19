@@ -30,16 +30,6 @@
                             <a class="nav-link" href="/contact">Contact Us</a>
                         </li>
 
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact </a>
-                        </li>
                     </ul>
                     <!-- Left links -->
                 </div>

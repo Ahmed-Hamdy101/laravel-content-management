@@ -27,6 +27,7 @@
     </footer>
 
     <script type="text/javascript" rel="javascript" src="{{ asset('js/jquery.js') }}"></script>
+    <script type="text/javascript" rel="javascript" src="{{ asset('js/lottie.min.js') }}"></script>
     <script type="text/javascript" rel="javascript" src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" rel="javascript" src="{{ asset('js/mdb.js') }}"></script>
 

@@ -16,8 +16,8 @@
 
                 </div>
             </div>
-            <div class="col-6  img-fluid" id="female">
-                {{-- here animation demale json --}}
+            <div class="col-6 img-fluid" id="female">
+                {{-- here animation female json --}}
             </div>
         </div>
         <!-- Background image -->
@@ -30,8 +30,6 @@
             </div>
 
             <div class="col-6 align-self-center text-justify lh-lg">
-D
-                <h1 class="ps-3  ptext-primary fw-bold " id="about"> About <span class=" mb-5 text-primary "> <i
 
                 <h1 class="ps-3  ptext-primary fw-bold "> About <span class=" mb-5 text-primary "> <i
                             class="bi bi-chevron-right"></i> US</span> </h1>

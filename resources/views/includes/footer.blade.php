@@ -41,15 +41,6 @@
                 <li class="nav-item">
                   <a href="#!" class="nav-link"> <i class="bi bi-twitter text-white fs-3"></i></a>
 
-                  <a href="#!" class="nav-link"> <i class="bi bi-facebook text-white fs-1"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#!" class="nav-link"> <i class="bi bi-github text-white fs-1"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#!" class="nav-link"> <i class="bi bi-twitter text-white fs-1"></i></a>
-
-                </li>
               </ul>
             </div>
             </div>
@@ -66,11 +57,5 @@
         </div>
         <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3 text-light" style="background-color: rgba(10, 10, 10, 0.05);">
-          © 2020 Copyright:
-          <a class="text-light" href="https://mdbootstrap.com/">IZac.com</a>
-        </div>
-        <!-- Copyright -->
       </footer>
       <!-- Footer -->
