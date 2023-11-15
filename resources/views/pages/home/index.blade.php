@@ -99,15 +99,12 @@
 
                             <div class="card mb-1 text-dark text-center ">
    
-                                
-                                <div class="card-body  ">
-                                    <p class="badge badge-danger m-3 "> {{ $post->catagory?->name }} </p>
-                                    <img src="{{ asset('/storage/' . $post->image) }}" height="80">
+                                    <div class="card-body">
+                                        <img src="{{ asset('storage/' . $post->image) }}" height="150" class="rounded ripple"> <br>
+                                    <p class="badge badge-danger m-3 "> {{ $post->catagory?->name }} </p><br>
                                     <h2 class="card-title text-center fs-3"> {{ $post->title }}
                                     </h2>
-
-                                    <br>
-                                    <code class="card-text mt-1 p-1"> {{ $post->content }} </code>
+                                    <br>                   
                                     <a href="posts/{{ $post->id }}"
                                         class="card-link btn btn-sm btn-info mt-5 d-flex justify-content-center"
                                         style="border-radius: 7px ;">View Post</a>

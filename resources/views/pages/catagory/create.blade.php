@@ -1,9 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="container pt-5 mt-5 ">
+    <div class="container pb-5 mb-5 ">
 
-        <form action="/catagory/store" class="form pt-3 " method="POST">
+        <form action="/catagory/store" class="form pt-5 mt-5 " method="POST">
             @csrf
             <fieldset class="fieldset">
 

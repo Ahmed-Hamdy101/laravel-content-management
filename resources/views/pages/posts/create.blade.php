@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-<<<<<<< HEAD
+
     <div class="container pt-5">
 
         <form action="/posts/store" class="form" method="POST" enctype="multipart/form-data">
