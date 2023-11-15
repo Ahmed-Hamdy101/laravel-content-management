@@ -99,16 +99,13 @@
 
                             <div class="card mb-1 text-dark text-center ">
    
-                                
-                                <div class="card-body  ">
-                                    <p class="badge badge-danger m-3 "> <?php echo e($post->catagory?->name); ?> </p>
-                                    <img src="<?php echo e(asset('/storage/' . $post->image)); ?>" height="80">
+                                    <div class="card-body">
+                                        <img src="<?php echo e(asset('storage/' . $post->image)); ?>" height="150" class="rounded ripple"> <br>
+                                    <p class="badge badge-danger m-3 "> <?php echo e($post->catagory?->name); ?> </p><br>
                                     <h2 class="card-title text-center fs-3"> <?php echo e($post->title); ?>
 
                                     </h2>
-
-                                    <br>
-                                    <code class="card-text mt-1 p-1"> <?php echo e($post->content); ?> </code>
+                                    <br>                   
                                     <a href="posts/<?php echo e($post->id); ?>"
                                         class="card-link btn btn-sm btn-info mt-5 d-flex justify-content-center"
                                         style="border-radius: 7px ;">View Post</a>
@@ -121,4 +118,4 @@
             </div>
             <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\micro-hack\Documents\workspace\dynamic\framworks\laravel\apps\laravel-content-management\resources\views/pages/home/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/hacker/workspace/dynamic/framworks/laravel/apps/projects/laravel-content-management/resources/views/pages/home/index.blade.php ENDPATH**/ ?>

@@ -1,9 +1,9 @@
 
 
 <?php $__env->startSection('content'); ?>
-    <div class="container pt-5 mt-5 ">
+    <div class="container pb-5 mb-5 ">
 
-        <form action="/catagory/store" class="form pt-3 " method="POST">
+        <form action="/catagory/store" class="form pt-5 mt-5 " method="POST">
             <?php echo csrf_field(); ?>
             <fieldset class="fieldset">
 
@@ -25,4 +25,4 @@
     </div>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\micro-hack\Documents\workspace\dynamic\framworks\laravel\apps\laravel-content-management\resources\views//pages/catagory/create.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/hacker/workspace/dynamic/framworks/laravel/apps/projects/laravel-content-management/resources/views/pages/catagory/create.blade.php ENDPATH**/ ?>

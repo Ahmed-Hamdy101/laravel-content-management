@@ -15,14 +15,14 @@
 
     </header>
 
-    <section  id="main">
+    <section  id="main" class="mb-5 pb-5">
 
         <?php echo $__env->yieldContent('content'); ?>
 
     </section>
 
 
-    <footer class="row m-0 p-0">
+    <footer>
         <?php echo $__env->make('includes.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     </footer>
 
@@ -33,4 +33,4 @@
 
 </body>
 
-</html><!-- JQuery --><?php /**PATH C:\Users\micro-hack\Documents\workspace\dynamic\framworks\laravel\apps\laravel-content-management\resources\views/layouts/default.blade.php ENDPATH**/ ?>
+</html><!-- JQuery --><?php /**PATH /home/hacker/workspace/dynamic/framworks/laravel/apps/projects/laravel-content-management/resources/views/layouts/default.blade.php ENDPATH**/ ?>

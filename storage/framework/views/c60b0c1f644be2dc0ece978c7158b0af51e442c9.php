@@ -1,7 +1,7 @@
 
 
 <?php $__env->startSection('content'); ?>
-<<<<<<< HEAD
+
     <div class="container pt-5">
 
         <form action="/posts/store" class="form" method="POST" enctype="multipart/form-data">
@@ -47,4 +47,4 @@
         </form>
     </div>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\micro-hack\Documents\workspace\dynamic\framworks\laravel\apps\laravel-content-management\resources\views/pages/posts/create.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/hacker/workspace/dynamic/framworks/laravel/apps/projects/laravel-content-management/resources/views/pages/posts/create.blade.php ENDPATH**/ ?>

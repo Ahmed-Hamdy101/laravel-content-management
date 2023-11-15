@@ -40,4 +40,4 @@
     </nav>
     <!-- Navbar -->
 <?php $__env->stopSection(); ?>
-<?php /**PATH C:\Users\micro-hack\Documents\workspace\dynamic\framworks\laravel\apps\laravel-content-management\resources\views/includes/header.blade.php ENDPATH**/ ?>
+<?php /**PATH /home/hacker/workspace/dynamic/framworks/laravel/apps/projects/laravel-content-management/resources/views/includes/header.blade.php ENDPATH**/ ?>
