@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use App\Models\Catagory;
-use App\Models\post;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class PostControllers extends Controller
@@ -34,7 +34,7 @@ class PostControllers extends Controller
         // valid the image
         var_dump($request->hasFile('image')); 
 
-          $image = $request->file('image')->store('post/image');
+        $image = $request->file('image')->store('post', 'public');
           Post::create([
                 'title' => $title,
                 'content' => $content,
