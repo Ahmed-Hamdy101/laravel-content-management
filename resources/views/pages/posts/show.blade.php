@@ -3,14 +3,12 @@
 @section('content')
     <div class="container p-4">
         <div class="row">
-            <div class="col-6 m-auto">
+            <div class="col-6 m-auto p-5 rounded border shadow">
 
                 <h1 class="text-center"> <a class="text-decoration-none " href=""> {{ $post->title }} <i class="bi bi-journal"></i> </a>
                 </h1>
 
-                <textarea class="content" cols="60" rows="6" disabled class="form-control" style="resize:none">
-                        {{ $post->content }}
-                  </textarea>
+                <p > <p class=" p-3 rounded text-success bg-dark"> {{ $post->content }}</p></p>
 
                 <div class="col-sm-4 mb-5 p-3 m-auto">
 
