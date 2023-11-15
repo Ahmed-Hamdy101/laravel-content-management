@@ -15,14 +15,14 @@
 
     </header>
 
-    <section  id="main">
+    <section  id="main" class="mb-5 pb-5">
 
         @yield('content')
 
     </section>
 
 
-    <footer class="row m-0 p-0">
+    <footer>
         @include('includes.footer')
     </footer>
 
