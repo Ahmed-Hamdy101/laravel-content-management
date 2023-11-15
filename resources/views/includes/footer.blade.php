@@ -5,13 +5,13 @@
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex ps-5">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex ">
               <h1 class="text-uppercase text-center text-light  align-self-center">Izac</h1>
             </div>
             <!--Grid column-->
       
             <!--Grid column-->
-            <div class=" navbar navbar-expand-lg navbar-dark col-lg-3 col-md-6 mb-4 mb-md-0 shadow-0">
+            <div class=" navbar navbar-expand-lg navbar-dark col-lg-3 col-md-6  mb-md-0 shadow-0">
               
               <ul class="list-unstyled mb-0 navbar-nav flex-column">
                 <h5 class="text-uppercase text-white">menu</h5>
@@ -29,7 +29,7 @@
             <!--Grid column-->
       
             <!--Grid column-->
-            <div class=" navbar navbar-expand-lg navbar-dark col-lg-3 col-md-6 mb-4 mb-md-0 shadow-0">   
+            <div class=" navbar navbar-expand-lg navbar-dark col-lg-3 col-md-6  mb-md-0 shadow-0">   
               <ul class="list-unstyled mb-0 navbar-nav flex-row">
                 <li class=" nav-item">
 
@@ -46,7 +46,7 @@
             </div>
             <!--Grid column-->
             <!-- Copyright -->
-            <div class="text-center p-3 text-light pt-4" style="background-color: rgba(10, 10, 10, 0.05);">
+            <div class="text-center  text-light pt-4" style="background-color: rgba(10, 10, 10, 0.05);">
               © 2020 Copyright:
               <a class="text-light" href="https://mdbootstrap.com/">IZac.com</a>
             </div>
